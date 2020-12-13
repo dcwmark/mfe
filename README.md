@@ -7,3 +7,8 @@ npx create-react-app mfe-a
 npx create-react-app mfe-b
 npx create-react-app mfe-c
 ```
+
+## container
+```zsh
+npm i react-router-dom
+```
