@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import dotenv from 'dotenv';
@@ -23,15 +24,15 @@ console.log(`***** mfeBHost::${mfeBHost}`);
 console.log(`***** mfeCHost::${mfeCHost}`);
 
 const mfeA = ({ history = defaultHistory }) => {
-  return <MicroFrontend history={ history } host={ mfeAHost } name="mfeA" />
+  return <MicroFrontend history={ history } host={ mfeAHost } name="MFEa" />
 };
 
 const mfeB = ({ history = defaultHistory }) => {
-  return <MicroFrontend history={ history } host={ mfeBHost } name="mfeB" />
+  return <MicroFrontend history={ history } host={ mfeBHost } name="MFEb" />
 };
 
 const mfeC = ({ history = defaultHistory }) => {
-  return <MicroFrontend history={ history } host={ mfeCHost } name="mfeC" />
+  return <MicroFrontend history={ history } host={ mfeCHost } name="MFEc" />
 };
 
 const HOME = () => {

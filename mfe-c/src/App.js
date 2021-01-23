@@ -1,10 +1,10 @@
+import React from 'react';
+
 import './App.css';
 
 const App = () => {
   return (
-    <>
-      <h1 className="app-head">mfe-C</h1>
-    </>
+    <h1 className="app-head">mfe-C</h1>
   );
 }
 
